@@ -1,0 +1,287 @@
+
+{
+    "intents": [
+        {
+            "tag": "grettings",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there? ",
+                "Hello",
+                "Good day",
+                "Whats up",
+                "how are ya",
+                "heyy",
+                "whatsup"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again",
+                "Hi there, how can i help?"
+            ],
+            "context_set": ""
+        },
+
+
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you",
+                "bye bye",
+                "See you later",
+                "Goodbye",
+                "I am leaving",
+                "Bye",
+                "Have a Good day",
+                "talk to you later",
+                "tyyl",
+                "i got to go",
+                "gtg"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!",
+                "Come back soon"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "NRI Group of Institute",
+            "patterns": [
+                "Tell me about NRI Group of Institute",
+                "Give me information about NRI Group of Institute",
+                "History of NRI Group of Institute",
+                "When was NRI Group of Institute founded?",
+                "about NRI Group of Institute",
+                "Ranking of NRI Group of Institute?",
+                "NRI Group of Institute ranking",
+                "Information on NRI Group of Institute",
+                "Ranking of NRI Group of Institute",
+                "rank of NRI Group of Institute",
+                "rank of this collage",
+                "significance of collage",
+                "significance of NRI Group of Institute",
+                "Founded by whom",
+                "Founder of NRI Group of Institute"
+            ],
+            "responses": [
+                "NRI Group of Institutions (NGI) was founded by Mr D. Subodh Singh a technocrat and the NRI, in the year 2000. It runs by the Taramathi Education Society formed by NRIs based in the USA and highly qualified technocrats in India. NRI Group of institutions is a leading group of educational institutions of India that is providing professional degrees in engineering, pharmacy, management, law, nursing, physiotherapy and paramedical sciences for 21 years. The institute caters to over 5000+ students studying across 25 acres of high-tech campus. The institute nurture students coming from all walks of society to experience quality and equal education. The college is sensitive to individual, racial, ethnic differences and seeks students from diverse cultural backgrounds. Our institute believes in providing the best of the Indian Education system with a blend of educational techniques of the USA. Apart from providing education, we at NRI believe to develop responsible and sensitive citizens who should always be ready to serve society and the country."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "your name",
+                "do you have a name",
+                "what are you called",
+                "what is your name",
+                "what should i called you",
+                "whats your name",
+                "what your name",
+                "who are you",
+                "who is this",
+                "what am i chatting to",
+                "who am i talking to",
+                "what are you"
+            ],
+            "responses": [
+                "you can call me NRI Institute BOT.",
+                "I'm NRI Group of Institute"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "timing of collage",
+                "what is collage timing",
+                "working days",
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation",
+                "when is the collage open",
+                "collage timing",
+                "what about collage timing",
+                "is collage open on saturday",
+                "tell me something about collage timing",
+                "what is the collage hours",
+                "when should i come to collage",
+                "when should i attend collage",
+                "what is my collage time",
+                "collage timing",
+                "timing collage"
+            ],
+            "responses": [
+                "Collage is open 9:30am-4:30pm Monday-Saturday!\n Sunday is holiday."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "CSE HOD",
+            "patterns": [
+                "who is the HOD of CSE department?",
+                "who is the head of the department in CSE department?",
+                "who is the head of the department in Computer Science and Enginnering?",
+                "what is CSE HOD name?",
+                "who is the head of CSE department"
+            ],
+            "responses": [
+                "CSE HOD - Prof. Anurag Shrivastava",
+                "the head of CSE department is Prof. Anurag Shrivastava"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "number",
+            "patterns": [
+                "more info",
+                "contact info",
+                "how to contact collage",
+                "collage telephone number",
+                "collage number",
+                "what is your contact no",
+                "contact number?",
+                "how to call you",
+                "collage phone no",
+                "how can i contact you",
+                "can i get your phone number",
+                "how can i call you",
+                "phone number",
+                "phone no",
+                "call"
+            ],
+            "responses": [
+                "you can contact Number - 0755-4085500 \n Email - contactus@nrigroupindia.com \n Address Sajjan Singh Nagar, Opposite Patel Nagar,Raisen Road Bhopal"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "What courses are available?",
+                "What classes are offered?",
+                "What educational programs are offered?",
+                "What educational options do I have?",
+                "What learning opportunities are available?",
+                "courses"   
+            ],
+            "responses": [
+                "B.Tech:₹86,000 (1st Year Fees):10+2 with 45%\nMBBS:₹8.25 Lakhs (1st Year Fees):10+2 with 50% + NEET\nMBA:₹74,000 (1st Year Fees):Graduation with 50%\nBBA:₹80,000 (1st Year Fees):10+2\nB.Sc:₹72,000 (1st Year Fees):10+2\nM.Sc:₹72,000 (1st Year Fees):Graduation\nBCA:₹80,000 (1st Year Fees):10+2"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "How do I go about applying for admission?",
+                "What steps do I need to take to be accepted?",
+                "What is the procedure for gaining admission?",
+                "What is the process for enrolling in the program?",
+                "How do I get accepted into the program?",
+                "What is the admission process?"
+            ],
+            "responses": [
+                "The admission process at  NRI Institute is as follows: \n\n1. Fill up the Application Form: The first step is to fill up the online application form. Once the form is filled, the candidate can submit the documents for admission.\n\n2. Submit the Necessary Documents: Once the application form is filled, the candidate needs to submit the necessary documents for admission. The documents required for admission are:\n\na. Mark sheet of the qualifying examination. \nb. Birth certificate or 10th Marks sheet for age proof. \nc. Migration Certificate (if applicable). \nd. Passport size photographs. \ne. Transfer Certificate.\n\n3. Entrance Test: After the submission of documents, the candidate needs to appear for the entrance test conducted by the university. The entrance test may vary depending on the program the candidate is applying for.\n\n4. Personal Interview: After the entrance test, the candidate will be called for a personal interview. This interview is conducted to assess the candidate’s knowledge, attitude, behavior and communication skills.\n\n5. Final Selection: The final selection of the candidate is based on the performance in the entrance test and personal interview.\n\n6. Payment of the fees of the course."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "scholarship",
+            "patterns": [
+                "What grants, scholarships, and other financial assistance is available",
+                "Are there any scholarships I can apply for",
+                "What type of financial aid can I get",
+                "What are my options for tuition assistance",
+                "What are the different types of student aid available",
+                "What scholarship programs are available to me",
+                "Are there any grants or loans I can use to pay for college",
+                "What are my options for paying for college",
+                "Are there any financial aid programs I qualify for",
+                "Are there any scholarships I can use to pay for college",
+                "What scholarships and financial aid options are available"  
+            ],
+            "responses": [
+                "The University shall offer scholarships in the form of tuition fee waiver to those students who participate and win awards (first prize, second prize, gold medal, silver medal etc...) at different levels as follows:\nAt District Level -25% of the tuition fees\nAt State Level- 50% of the tuition fees\nAt Zonal Level-75% of the tuition fees\nAt National/International Level- 100% of the Tuition fees\nCompetitions-\nStudents will receive complete support from PU in accelerating their goals. Furthermore, the students shall be encouraged and groomed by the best mentors for the state and national level competitions."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "services",
+            "patterns": [
+                "What types of support can I access as a student?",
+                "What resources are available to help me succeed as a student?",
+                "What assistance is offered to students on campus?",
+                "What programs are in place to aid students?",
+                "What student services can I take advantage of?",
+                "What student services are available?"
+            ],
+            "responses": [
+                "The main aim of NRI Institute is to provide an array of job opportunities to students. The University plays an important role  in providing jobs rather than seeking jobs. For this, the University has established various cell/departments to provide support to students in pursuing a career as per their interest. - Career Development Cell, Training & Placement Cell, Research & Development Cell, International Relations Cell, Entrepreneurship Development Cell"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "environment",
+            "patterns": [
+                "How would you describe the atmosphere on campus?",
+                "What is the general feeling on campus?",
+                "How would you characterize the campus environment?",
+                "How would you rate the campus climate?",
+                "What can you tell me about the campus atmosphere?",
+                "What is the campus environment like?"              
+            ],
+            "responses": [
+                "The NRI Institute campus at Greater is the most versatile campus with various activities and sports events conducted throughout the year. The students have access to various sports facilities such as basketball, badminton, football, hockey and a cricket field."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "extracurricular",
+            "patterns": [
+                "What types of after-school activities are available?",
+                "Are there any extra-curricular activities on offer?",
+                "What kind of clubs and activities are available?",
+                "Are there any special interest groups I can join?",
+                "What kind of extracurricular activities do you offer?",
+                "What extracurricular activities are offered?" 
+            ],
+            "responses": [
+                "LITERATURE. SPORTS. THEATRE. ARTS & CRAFT. POETRY. MUSIC."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "internship",
+            "patterns": [
+                "What job and internship opportunities are open to me?",
+                "What job and internship opportunities can I apply for?",
+                "What job and internship opportunities do you have available?",
+                "Are there any job or internship opportunities I can pursue?",
+                "What kind of career and internship options are available?",
+                "Are there any job and internship openings I can explore?",
+                "What types of job and internship opportunities are available?",
+                "What career and internship opportunities are available?"
+            ],
+            "responses": [
+                "An internship is an important part of the academic curriculum because they help one gain practical knowledge and experience required to excel in their respective fields. We at Department of Paramedical & Health Sciences encourage our students to undertake internship under various hospitals and organisations. Students have interned at: • Apollo Hospital, Ahmedabad • Civil Hospital, Ahmedabad • Bankers Heart Hospital, Vadodara • BAPS Hospital, Atladara, Vadodara • BAPS Hospital, Surat • Modi Children Hospital, Vyara, Tapi • Global Hospital, Baroda • Rhythm Hospital, Vadodara • Sterling Hospital, Vadodara • Sunshine Global Hospitals, Vadodara • Vaduwala Eye Hospital, Vadodara • Arogyam Hospital, Ratlam • ASG Eye Hospital, Jamshedpur • General Hospital, Bodeli • Hospital Central De Maputo, Mozambique • Hospital Provincial Da Matola • Hospital Provincial De Gaza • Jamshedpur Eye Hospital, Jamshedpur, Jharkhand • Kadam Eye Hospital, Vadodara • Nobel Medical College, Nepal • Phuentsholing General Hospital, Bhutan • Ramlal Golchha Eye Hospital, Nepal • Sagrmatha Eye Hospital, Nepal • Tilganga Hospital, Nepal • Parul Sevashram Hospital, Vadodara"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+               "what about stay?",
+               "hostel details",
+               "What types of student housing are available?"
+            ],
+            "responses": [
+                "Hostel is available for both girls and boys  with a total residence capacity of up to 10,000 students. Separate hostel for Boys and Girls, Shared Rooms, In-Campus Hostel"
+            ],
+            "context_set": ""
+        }
+    ]
+}
